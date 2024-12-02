@@ -1,65 +1,107 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.5;
-  }
-  
-  header {
-    background: #333333;
-    color: #fff;
-    padding-right: 100px;
-    padding-top: 25px;
-    padding-bottom: 10px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
 
 .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: #333; ]
-    color: #fff;
-    position: sticky;
-    top: 0;
-  }
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-image: linear-gradient(black, grey);]
+  color: #fff;
+  position: sticky;
+  top: 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 5%;
+
+}
+.pic img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  border: 2px solid white; 
+  border-style: initial;
+  margin-left: 50px;
+}
+.name{
+  margin-left: 175px;
+  position:fixed;
+  color: white;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  margin-left: 725px;
   
-  .header-container {
-    display: flex;
-    align-items: center;
-    width: 5%;
-    padding-left: 75px;
-  }
-  
-  .pic img {
-    width: 85px;
-    height: 85px;
-    border-radius: 50%;
-    border: 2px solid white; 
-    border-style: initial;
-  }
-  .name{
-    margin-left: 150px;
-    position:fixed;
-  }
-  .nav ul {
-    display: flex;
-    list-style: none;
-    margin-left: 750px;
-  }
-  
-  .nav li {
-    margin: 0 20px; 
-  }
-  
-  .nav a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-    font-weight: bold;
-    transition: color 0.3s;
-  }
-  
-  .nav a:hover {
-    color: #00bcd4; 
-  }
-  
+}
+
+.nav li {
+  margin: 0 20px; 
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: black; 
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  text-align: center;
+  background-image: linear-gradient(grey, white);
+  padding: 1rem;
+}
+
+#projects .project {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 600px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form input, form textarea, form button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
