@@ -7,10 +7,10 @@ body {
 }
 
 .header {
+  background-color: #2E3192;
   display: flex;
   align-items: center;
   padding: 10px;
-  background-color: #2E3192;
   position: sticky;
   top: 0;
 }
@@ -75,18 +75,18 @@ section {
 }
 #home {
   height: 78.5vh;
-  background-color: #2E3192;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   color: white;
+  padding-top: 75px;
 }
 
 .home-content {
   display: flex;
   align-items: center;
-  gap: 10px; 
+  gap: 0px; 
 }
 
 .image img {
@@ -103,6 +103,7 @@ section {
 .texts h1 {
   margin-bottom: 10px;
   text-shadow:1px 1px 10px blue, 1px 1px 10px white;
+  color: white;
   font-size:48px;
   text-align:center;
 }
@@ -112,8 +113,8 @@ section {
   color: white;
   text-shadow:1px 1px 10px blue, 1px 1px 10px white;
 }
-
 .abouts{
+  padding-top: 110px;
   display:flex;
   margin: auto;
 }
@@ -180,6 +181,7 @@ section {
   text-shadow:1px 1px 10px black;
 }
 
+
 .projects {
   padding: 20px;
   display: flex;
@@ -187,6 +189,7 @@ section {
 }
 
 .heading{
+  padding-top: 75px;
   font-size: 18pt;
   color: black;
 
@@ -209,10 +212,73 @@ section {
   text-shadow:1px 1px 10px black, 1px 1px 10px black;
 }
   
-footer {
-  background:#1BFFFF;
-  color: black;
+.contact {
+  padding: 50px 20px;
   text-align: center;
-  padding: 1rem 0;
-  margin-top: 2rem;
+}
+
+.contact-text h2 {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.contact-text h4 {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.contact-list li {
+  font-size: 1.5rem;
+  color: black;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-list li i {
+  margin-right: 10px;
+  color: black
+  font-size: 1.5rem;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: black;
+  font-size: 1.5rem;
+  margin: 0 10px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 2px solid black; 
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.social-links a:hover {
+  background-color: blue;
+  color: white; 
+  border-color: white; 
+}
+
+footer {
+  margin-top: 40px;
+  background-color: #2E3192;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
 }
